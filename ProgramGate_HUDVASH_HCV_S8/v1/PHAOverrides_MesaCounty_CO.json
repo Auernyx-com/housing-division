@@ -1,0 +1,83 @@
+{
+  "version": "v1",
+  "description": "Mesa County / Western Slope Colorado PHA overrides for ProgramGate_HUDVASH_HCV_S8. Pilot deployment for SQUAD Battalion.",
+  "jurisdiction": {
+    "phaName": "Housing Authority of the City of Grand Junction",
+    "county": "Mesa County",
+    "state": "CO",
+    "defaultZip": "81501"
+  },
+  "policy": {
+    "programType": "HUD-VASH",
+    "rentReasonablenessPolicy": "FLAG_ONLY",
+    "hudVashSpecialRestrictions": [
+      "Confirm current HUD-VASH unit availability with Grand Junction VA Medical Center social work team",
+      "HUD-VASH vouchers administered through Grand Junction Housing Authority — confirm current waitlist status before routing"
+    ],
+    "exceptionPaymentStandard": {
+      "allowed": null,
+      "eligibilityNotes": "Contact Grand Junction Housing Authority for exception payment standard eligibility",
+      "maxPercentOfFMR": null
+    },
+    "leaseTerm": {
+      "minMonths": 12,
+      "maxMonths": null,
+      "notes": "Initial lease minimum 12 months standard for HUD-VASH; confirm with PHA for current policy"
+    }
+  },
+  "data": {
+    "_note": "Payment standards below are PLACEHOLDERS. Source actual values from HUD FMR tables at https://www.huduser.gov/portal/datasets/fmr.html — Mesa County, CO. Verify with Grand Junction Housing Authority before use. Do NOT use these zeros to make eligibility decisions.",
+    "paymentStandardByZip": {
+      "81501": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "81502": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "81503": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "81504": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "81505": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "81506": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "81507": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "81520": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "81521": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+      "81524": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 }
+    },
+    "utilityAllowanceSchedule": {
+      "_note": "Utility allowance schedules must be sourced from Grand Junction Housing Authority directly. Values below are PLACEHOLDERS.",
+      "81501": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} },
+      "81502": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} },
+      "81503": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} },
+      "81504": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} },
+      "81505": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} },
+      "81506": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} },
+      "81507": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} },
+      "81520": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} },
+      "81521": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} },
+      "81524": { "0": {}, "1": {}, "2": {}, "3": {}, "4": {} }
+    },
+    "utilityAllowanceKeyFormat": "electric=tenant;gas=owner;water=tenant;sewer=owner;trash=tenant;internet=ignore"
+  },
+  "contacts": {
+    "_note": "Verify all contacts before use — phone numbers and staff change.",
+    "pha": {
+      "name": "Housing Authority of the City of Grand Junction",
+      "address": "715 Ute Ave, Grand Junction, CO 81501",
+      "phone": "VERIFY — do not use placeholder",
+      "hud_vash_liaison": "Contact Grand Junction VA Medical Center social work team for current HUD-VASH coordinator"
+    },
+    "va_medical_center": {
+      "name": "Grand Junction VA Medical Center",
+      "address": "2121 North Avenue, Grand Junction, CO 81501",
+      "phone": "970-242-0731",
+      "social_work": "Ask for Social Work Service for HUD-VASH referrals"
+    },
+    "ssvf_providers": {
+      "_note": "SSVF grantees for Western Slope CO — verify current active grantees at https://www.va.gov/homeless/ssvf/",
+      "providers": []
+    }
+  },
+  "notes": [
+    "PILOT DEPLOYMENT — Western Slope Colorado, Mesa County",
+    "All PLACEHOLDER values must be replaced with verified data before routing veterans to housing decisions",
+    "Payment standards: source from HUD FMR at https://www.huduser.gov/portal/datasets/fmr.html",
+    "Utility allowances: request current schedule from Grand Junction Housing Authority",
+    "SSVF providers: verify current grantee list at https://www.va.gov/homeless/ssvf/"
+  ]
+}
