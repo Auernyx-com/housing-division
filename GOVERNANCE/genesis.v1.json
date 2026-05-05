@@ -1,0 +1,22 @@
+{
+  "schema": "squad-bat.division-genesis.v1",
+  "division_id": "housing-division",
+  "identifier": "squad-bat.division.housing.v1",
+  "created_at": "2026-05-05T00:00:00.000Z",
+  "authority": "Justin Hughes — Founder, Auernyx / SQUAD Battalion",
+  "parent": {
+    "system": "squad-battalion",
+    "identifier": "squad-bat.v1",
+    "repo": "https://github.com/Auernyx-com/SQUAD"
+  },
+  "founding_law": "GOVERNANCE/LAWS/veteran_data_sovereignty.v1.md",
+  "founding_law_sha256": "dc0fcb428e24948c5471798bf3c0b77cafade1c68e1aecb39aa13eef264f2f87",
+  "pilot": "Western Slope Colorado — Mesa County",
+  "capabilities": [
+    "listingLegitimacyCheck",
+    "programGateHUDVASH",
+    "hqsPreInspectionScreen",
+    "landlordOutreachPacket"
+  ],
+  "note": "This genesis record is verified by DivisionInvoke before any operation runs. founding_law_sha256 must match the lock file in the SQUAD Battalion repo. A mismatch blocks all Division operations."
+}
